@@ -1,0 +1,515 @@
+body {
+    margin: 0;
+    background-color: rgba(255, 255, 255);
+}
+
+/*-- All Elements of the APP is here --*/
+#mainContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Nav Container */
+
+.nav_container{
+    display: flex; /*Makes the text responsive and adjusts to the screen size*/
+    position: fixed;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #F0F3F4;
+    border-bottom: 1px;
+    border-bottom: 2px dotted;
+    border-bottom: medium solid #3839DB;
+}
+
+/* Nav Content */
+
+.logo{
+    display: flex; /*Makes the text responsive and adjusts to the screen size*/
+    flex-direction: row;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius:10%;
+    border:2px solid #3839DB;
+}
+
+.nav_title {
+    display: flex; /*Makes the text responsive and adjusts to the screen size*/
+    flex-direction: row;
+    white-space: pre; /* Nav title will be split into the second line once the browser has been made smaller*/
+}
+
+.nav_header {
+    display: flex; /*Makes the text responsive and adjusts to the screen size*/
+    flex-direction: row;
+    gap: 5px;
+    flex: 3; /*-- This creates spaces -- */
+}
+
+.time_position { /* Adds this element into a row */
+    display: flex; /*Makes the text responsive and adjusts to the screen size*/
+    flex-direction: row;
+    white-space: pre; /* Nav title will be split into the second line once the browser has been made smaller*/
+    gap: 5px;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+.pandasparx_logo {
+    margin-top: 12px;
+    margin-right: 5px;
+    border-radius:100%;
+    border:3px solid #3839DB;
+}
+
+/*-- Main Title-- */
+#title{
+    text-align: center;
+}
+
+/*-- First Row --*/
+#header {
+  align-items: center;
+}
+
+#sub_title1 h3 {
+  text-align: center;
+  margin-left: 1.5rem;
+}
+
+#heading_title2 {
+  text-align: center;
+}
+
+#heading_title3 {
+  text-align: center;
+}
+
+.dcc_desc {
+    margin: 0 auto;
+    padding: 5px;
+    width: calc(100%-40px);
+}
+
+/*--Left side--*/
+.left_side {
+    height: auto;
+}
+
+.leftColumnTitle {
+    text-align: center;
+}
+
+/*-- Card Container --*/
+
+.card_container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap; /* Helps to make cards responsive */
+}
+
+/*-- Digital Coin  --*/
+
+.digital_coin {
+    display: flex;
+    flex-direction: row;
+    margin-top: 6px;
+}
+
+.d_coinName {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.d_coinImage {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.rankPosition {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-right: 6px;
+}
+
+.coinRank {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.coinPrice {
+    display: flex;
+    flex-direction: row;
+}
+
+.priceValue {
+    display: flex;
+    flex-direction: row;
+    margin-top: 12px;
+}
+
+.priceValue_position {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    margin-top: -10px;
+}
+
+/* Top Price  */
+.coinPriceColumn {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.arrowPosition {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.priceCoin_position {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+}
+
+/*-- Price Difference 2nd Row --*/
+
+.coinPrice_Variation {
+    display: flex;
+    flex-direction: row;
+}
+
+.arrowPosition_Variation {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.variation_position {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    gap: 2px;
+}
+
+.cap_priceValue {
+    display: flex;
+    flex-direction: row;
+    margin-top: 19px;
+}
+
+.variationCap_position {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: -26px;
+    margin-left: 10px;
+}
+
+.nonVariationCap_position {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.cardInnerPosition {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*-- Data Card --*/
+
+.dataCard {
+    background-color: blue;
+    background-color: rgb(217, 221, 222);
+    width: 200px;
+    height: 115px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px 0px rgb(56, 57, 219);
+}
+
+/*-- Right side --*/
+
+.right_side six columns {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+.right_side {
+    height: auto;
+}
+
+.rightColumnTitle {
+    text-align: center;
+}
+
+/*-- Table --*/
+
+.table_container {
+    display: flex;
+    justify-content: center;
+}
+
+.table {
+    background-color: rgb(217, 221, 222);
+    width: 900px;
+    height: auto;
+    border-radius: 0px;
+    box-shadow: 0px 0px 5px 0px rgb(56, 57, 219);
+}
+
+/*-- Table Styling --*/
+
+.t_style {
+    width: 100%;
+}
+
+.t_style Thead, .t_style Th, .t_style Td {
+    border: 1px solid #3839DB;
+}
+
+.t_style Thead {
+    background-color: #c9c9c9;
+    color: #333333;
+}
+
+th:not(.CalendarDay), td:not(.CalendarDay) {
+    border-bottom: 1px solid  #3839DB;
+    text-align: center;
+}
+
+.coinImage {
+    display: flex;
+    flex-direction: row;
+}
+
+.coinText {
+    display: flex;
+    flex-direction: row;
+    color: #FFF;
+    margin-top: 5px;
+
+}
+
+.coinTextV2 {
+    display: flex;
+    flex-direction: row;
+    color: #333333;
+    margin-top: 5px;
+
+}
+
+.coinLogoImage {
+    display: flex;
+    flex-direction: row;
+    gap: 3px
+}
+
+/*-- Table Header Hover--*/
+
+.tableHeader:hover {
+    background-color: #adadad;
+}
+
+/*--.t_style Thead, .t_style Th, .t_style Td {
+    border: 1px solid #3839DB;
+}
+
+/*-- Table Rows--*/
+/*-- Every Other Row Shaded --*/
+.tableRow:nth-child(even) td{
+    border-top: 2px solid #FFF;
+    border-bottom: 1px solid #FFF;
+    border-left: 2px solid #FFF;
+    background-color: #3839DB;
+}
+
+/*-- Ethereum Timescale, Header, and chart with hoover effect  --*/
+
+/*-- subheading --*/
+
+.subheading_graphUpdate {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.update_subText {
+    display: flex;
+    flex-direction: row;
+}
+
+.etPrice {
+    display: flex;
+    flex-direction: row;
+}
+
+.etTime {
+    display: flex;
+    flex-direction: row;
+}
+
+.SubBcPricePosition {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+
+.Timescale_style {
+    background-color: #d9ddde;
+    justify-content: center;
+    width: 900px;
+    height: auto;
+    box-shadow: 0px 0px 5px 0px rgb(56, 57, 219);
+}
+
+.timeScale {
+    display: flex;
+    justify-content: center;
+}
+
+.Timescale_style:hover  {
+    background-color: #d1d1d1;
+}
+
+ /* -- Crypto, Header, and Chart with hover effect -- */
+
+.CryptoChart {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*-- Subheading --*/
+
+
+.subheading_graphUpdate {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.update_subText {
+    display: flex;
+    flex-direction: row;
+}
+
+.bcPrice {
+    display: flex;
+    flex-direction: row;
+}
+
+.bcTime {
+    display: flex;
+    flex-direction: row;
+}
+
+.SubBcPricePosition {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+/*-- --*/
+
+.Crypto_style {
+    background-color: #d9ddde;
+    justify-content: center;
+    width: 900px;
+    height: auto;
+    box-shadow: 0px 0px 5px 0px rgb(56, 57, 219);
+}
+
+.Crypto_style:hover {
+   background-color: #d1d1d1;
+}
+
+.footer_info{
+    flex-direction: row;
+    text-align: center;
+    color: #3839DB;
+    line-height: 2.3;
+}
+
+.footer{
+    flex-direction: row;
+    background: #F0F3F4;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    bottom: 0;
+    border-top: 1px;
+    border-top: 2px dotted;
+    border-top: medium solid #3839DB;
+}
+
+.rc-slider-step {
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background: #0D160B;
+}
+
+.rc-slider-dot-active {
+  border-color: red;
+  border: solid 2px #3839DB;
+}
+
+.rc-slider-handle {
+  background-color: #3839DB;
+  border-color: #3839DB;
+}
+
+.rc.slider-handle:hover {
+  border-color: #3839DB;
+}
+
+.rc.slider-handle-active:active {
+  border-color: #3839DB;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px !important;
+  display: block !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #E7E7E7 !important;
+  border-radius: 10px !important;
+  display: block !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3839DB;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #8283ff !important;
+}
+
+
+/*-- Media Queries--*/
+@media screen and (max-width: 900px) {
+  .pandasparx_logo {
+    display: none;
+
+  }
+}
+
+
