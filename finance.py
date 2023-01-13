@@ -275,7 +275,7 @@ def update_card(n_intervals):
     else:
         # This objects adds headers to the columns
         h_list = ['Time', 'Rank', 'CryptoCurrency', 'Price', 'Change (24) %', 'Market Cap.']
-        bc_df = pd.read_csv(r'C:\Users\Admin\Desktop\Plotly_Dashboards\Dashboard_Finance\data\bc_data.csv', names=h_list)
+        bc_df = pd.read_csv('https://raw.githubusercontent.com/Olayemi-apps/financial-dashboard/main/data/bc_data.csv', names=h_list)
         bc_rank = bc_df['Rank'][0] # 0 without the index being shown in the output
         bc_df['Price_Variation'] = bc_df['Price'].diff()
         # Tail will give the last value of the dataframe
@@ -404,7 +404,7 @@ def update_card(n_intervals):
     else:
         # This objects adds headers to the columns
         h_list = ['Time', 'Rank', 'CryptoCurrency', 'Price', 'Change (24) %', 'Market Cap.']
-        bc_df = pd.read_csv(r'C:\Users\Admin\Desktop\Plotly_Dashboards\Dashboard_Finance\data\bc_data.csv', names=h_list)
+        bc_df = pd.read_csv('https://raw.githubusercontent.com/Olayemi-apps/financial-dashboard/main/data/bc_data.csv', names=h_list)
         # Tail will give the last value of the dataframe
         bc_change24h = bc_df['Change (24) %'].tail(1).iloc[0]
         bc_market = bc_df['Market Cap.'].tail(1).iloc[0]
@@ -476,7 +476,7 @@ def update_card(n_intervals):
     else:
         # This objects adds headers to the columns
         h_list = ['Time', 'Rank', 'CryptoCurrency', 'Price', 'Change (24) %', 'Market Cap.']
-        et_df = pd.read_csv(r'C:\Users\Admin\Desktop\Plotly_Dashboards\Dashboard_Finance\data\et_data.csv', names=h_list)
+        et_df = pd.read_csv('https://raw.githubusercontent.com/Olayemi-apps/financial-dashboard/main/data/et_data.csv', names=h_list)
         et_rank = et_df['Rank'][0] # 0 without the index being shown in the output
         et_df['Price_Variation'] = et_df['Price'].diff()
         # Tail will give the last value of the dataframe
@@ -605,7 +605,7 @@ def update_card(n_intervals):
     else:
         # This objects adds headers to the columns
         h_list = ['Time', 'Rank', 'CryptoCurrency', 'Price', 'Change (24) %', 'Market Cap.']
-        et_df = pd.read_csv(r'C:\Users\Admin\Desktop\Plotly_Dashboards\Dashboard_Finance\data\et_data.csv', names=h_list)
+        et_df = pd.read_csv('https://raw.githubusercontent.com/Olayemi-apps/financial-dashboard/main/data/et_data.csv', names=h_list)
         # Tail will give the last value of the dataframe
         et_change24h = et_df['Change (24) %'].tail(1).iloc[0]
         et_market = et_df['Market Cap.'].tail(1).iloc[0]
@@ -677,7 +677,7 @@ def update_card(n_intervals):
     else:
         # This objects adds headers to the columns
         h_list = ['Time', 'Rank', 'CryptoCurrency', 'Price', 'Change (24) %', 'Market Cap.']
-        tet_df = pd.read_csv(r'C:\Users\Admin\Desktop\Plotly_Dashboards\Dashboard_Finance\data\tet_data.csv', names=h_list)
+        tet_df = pd.read_csv('https://raw.githubusercontent.com/Olayemi-apps/financial-dashboard/main/data/tet_data.csv', names=h_list)
         tet_rank = tet_df['Rank'][0] # 0 without the index being shown in the output
         tet_df['Price_Variation'] = tet_df['Price'].diff()
         # Tail will give the last value of the dataframe
@@ -806,7 +806,7 @@ def update_card(n_intervals):
     else:
         # This objects adds headers to the columns
         h_list = ['Time', 'Rank', 'CryptoCurrency', 'Price', 'Change (24) %', 'Market Cap.']
-        tet_df = pd.read_csv(r'C:\Users\Admin\Desktop\Plotly_Dashboards\Dashboard_Finance\data\tet_data.csv', names=h_list)
+        tet_df = pd.read_csv('https://raw.githubusercontent.com/Olayemi-apps/financial-dashboard/main/data/tet_data.csv', names=h_list)
         # Tail will give the last value of the dataframe
         tet_change24h = tet_df['Change (24) %'].tail(1).iloc[0]
         tet_market = tet_df['Market Cap.'].tail(1).iloc[0]
@@ -878,7 +878,7 @@ def update_card(n_intervals):
     else:
         # This objects adds headers to the columns
         h_list = ['Time', 'Rank', 'CryptoCurrency', 'Price', 'Change (24) %', 'Market Cap.']
-        usd_df = pd.read_csv(r'C:\Users\Admin\Desktop\Plotly_Dashboards\Dashboard_Finance\data\usd_data.csv', names=h_list)
+        usd_df = pd.read_csv('https://raw.githubusercontent.com/Olayemi-apps/financial-dashboard/main/data/usd_data.csv', names=h_list)
         usd_rank = usd_df['Rank'][0] # 0 without the index being shown in the output
         usd_df['Price_Variation'] = usd_df['Price'].diff()
         # Tail will give the last value of the dataframe
@@ -1007,7 +1007,7 @@ def update_card(n_intervals):
     else:
         # This objects adds headers to the columns
         h_list = ['Time', 'Rank', 'CryptoCurrency', 'Price', 'Change (24) %', 'Market Cap.']
-        usd_df = pd.read_csv(r'C:\Users\Admin\Desktop\Plotly_Dashboards\Dashboard_Finance\data\usd_data.csv', names=h_list)
+        usd_df = pd.read_csv('https://raw.githubusercontent.com/Olayemi-apps/financial-dashboard/main/data/usd_data.csv', names=h_list)
         # Tail will give the last value of the dataframe
         usd_change24h = usd_df['Change (24) %'].tail(1).iloc[0]
         usd_market = usd_df['Market Cap.'].tail(1).iloc[0]
@@ -1079,7 +1079,7 @@ def update_card(n_intervals):
     else:
         # This objects adds headers to the columns
         h_list = ['Time', 'Rank', 'CryptoCurrency', 'Price', 'Change (24) %', 'Market Cap.']
-        bnb_df = pd.read_csv(r'C:\Users\Admin\Desktop\Plotly_Dashboards\Dashboard_Finance\data\bnb_data.csv', names=h_list)
+        bnb_df = pd.read_csv('https://raw.githubusercontent.com/Olayemi-apps/financial-dashboard/main/data/bnb_data.csv', names=h_list)
         bnb_rank = bnb_df['Rank'][0] # 0 without the index being shown in the output
         bnb_df['Price_Variation'] = bnb_df['Price'].diff()
         # Tail will give the last value of the dataframe
@@ -1210,7 +1210,7 @@ def update_card(n_intervals):
     else:
         # This objects adds headers to the columns
         h_list = ['Time', 'Rank', 'CryptoCurrency', 'Price', 'Change (24) %', 'Market Cap.']
-        bnb_df = pd.read_csv(r'C:\Users\Admin\Desktop\Plotly_Dashboards\Dashboard_Finance\data\bnb_data.csv', names=h_list)
+        bnb_df = pd.read_csv('https://raw.githubusercontent.com/Olayemi-apps/financial-dashboard/main/data/bnb_data.csv', names=h_list)
         # Tail will give the last value of the dataframe
         bnb_change24h = bnb_df['Change (24) %'].tail(1).iloc[0]
         bnb_market = bnb_df['Market Cap.'].tail(1).iloc[0]
@@ -1284,7 +1284,7 @@ def update_card(n_intervals):
     else:
         # This objects adds headers to the columns
         h_list = ['Time', 'Rank', 'CryptoCurrency', 'Price', 'Change (24) %', 'Market Cap.']
-        bin_df = pd.read_csv(r'C:\Users\Admin\Desktop\Plotly_Dashboards\Dashboard_Finance\data\bin_data.csv', names=h_list)
+        bin_df = pd.read_csv('https://raw.githubusercontent.com/Olayemi-apps/financial-dashboard/main/data/bin_data.csv', names=h_list)
         bin_rank = bin_df['Rank'][0] # 0 without the index being shown in the output
         bin_df['Price_Variation'] = bin_df['Price'].diff()
         # Tail will give the last value of the dataframe
@@ -1415,7 +1415,7 @@ def update_card(n_intervals):
     else:
         # This objects adds headers to the columns
         h_list = ['Time', 'Rank', 'CryptoCurrency', 'Price', 'Change (24) %', 'Market Cap.']
-        bin_df = pd.read_csv(r'C:\Users\Admin\Desktop\Plotly_Dashboards\Dashboard_Finance\data\bin_data.csv', names=h_list)
+        bin_df = pd.read_csv('https://raw.githubusercontent.com/Olayemi-apps/financial-dashboard/main/data/bin_data.csv', names=h_list)
         # Tail will give the last value of the dataframe
         bin_change24h = bin_df['Change (24) %'].tail(1).iloc[0]
         bin_market = bin_df['Market Cap.'].tail(1).iloc[0]
@@ -1489,7 +1489,7 @@ def update_card(n_intervals):
     else:
         # This objects adds headers to the columns
         h_list = ['Time', 'Rank', 'CryptoCurrency', 'Price', 'Change (24) %', 'Market Cap.']
-        xrp_df = pd.read_csv(r'C:\Users\Admin\Desktop\Plotly_Dashboards\Dashboard_Finance\data\xrp_data.csv', names=h_list)
+        xrp_df = pd.read_csv('https://raw.githubusercontent.com/Olayemi-apps/financial-dashboard/main/data/xrp_data.csv', names=h_list)
         xrp_rank = xrp_df['Rank'][0] # 0 without the index being shown in the output
         xrp_df['Price_Variation'] = xrp_df['Price'].diff()
         # Tail will give the last value of the dataframe
@@ -1620,7 +1620,7 @@ def update_card(n_intervals):
     else:
         # This objects adds headers to the columns
         h_list = ['Time', 'Rank', 'CryptoCurrency', 'Price', 'Change (24) %', 'Market Cap.']
-        xrp_df = pd.read_csv(r'C:\Users\Admin\Desktop\Plotly_Dashboards\Dashboard_Finance\data\xrp_data.csv', names=h_list)
+        xrp_df = pd.read_csv('https://raw.githubusercontent.com/Olayemi-apps/financial-dashboard/main/data/xrp_data.csv', names=h_list)
         # Tail will give the last value of the dataframe
         xrp_change24h = xrp_df['Change (24) %'].tail(1).iloc[0]
         xrp_market = xrp_df['Market Cap.'].tail(1).iloc[0]
@@ -1694,7 +1694,7 @@ def update_card(n_intervals):
     else:
         # This objects adds headers to the columns
         h_list = ['Time', 'Rank', 'CryptoCurrency', 'Price', 'Change (24) %', 'Market Cap.']
-        dog_df = pd.read_csv(r'C:\Users\Admin\Desktop\Plotly_Dashboards\Dashboard_Finance\data\dog_data.csv', names=h_list)
+        dog_df = pd.read_csv('https://raw.githubusercontent.com/Olayemi-apps/financial-dashboard/main/data/dog_data.csv', names=h_list)
         dog_rank = dog_df['Rank'][0] # 0 without the index being shown in the output
         dog_df['Price_Variation'] = dog_df['Price'].diff()
         # Tail will give the last value of the dataframe
@@ -1825,7 +1825,7 @@ def update_card(n_intervals):
     else:
         # This objects adds headers to the columns
         h_list = ['Time', 'Rank', 'CryptoCurrency', 'Price', 'Change (24) %', 'Market Cap.']
-        dog_df = pd.read_csv(r'C:\Users\Admin\Desktop\Plotly_Dashboards\Dashboard_Finance\data\dog_data.csv', names=h_list)
+        dog_df = pd.read_csv('https://raw.githubusercontent.com/Olayemi-apps/financial-dashboard/main/data/dog_data.csv', names=h_list)
         # Tail will give the last value of the dataframe
         dog_change24h = dog_df['Change (24) %'].tail(1).iloc[0]
         dog_market = dog_df['Market Cap.'].tail(1).iloc[0]
@@ -1899,7 +1899,7 @@ def update_card(n_intervals):
     else:
         # This objects adds headers to the columns
         h_list = ['Time', 'Rank', 'CryptoCurrency', 'Price', 'Change (24) %', 'Market Cap.']
-        car_df = pd.read_csv(r'C:\Users\Admin\Desktop\Plotly_Dashboards\Dashboard_Finance\data\car_data.csv', names=h_list)
+        car_df = pd.read_csv('https://raw.githubusercontent.com/Olayemi-apps/financial-dashboard/main/data/car_data.csv', names=h_list)
         car_rank = car_df['Rank'][0] # 0 without the index being shown in the output
         car_df['Price_Variation'] = car_df['Price'].diff()
         # Tail will give the last value of the dataframe
@@ -2030,7 +2030,7 @@ def update_card(n_intervals):
     else:
         # This objects adds headers to the columns
         h_list = ['Time', 'Rank', 'CryptoCurrency', 'Price', 'Change (24) %', 'Market Cap.']
-        car_df = pd.read_csv(r'C:\Users\Admin\Desktop\Plotly_Dashboards\Dashboard_Finance\data\car_data.csv', names=h_list)
+        car_df = pd.read_csv('https://raw.githubusercontent.com/Olayemi-apps/financial-dashboard/main/data/car_data.csv', names=h_list)
         # Tail will give the last value of the dataframe
         car_change24h = car_df['Change (24) %'].tail(1).iloc[0]
         car_market = car_df['Market Cap.'].tail(1).iloc[0]
@@ -2104,7 +2104,7 @@ def update_card(n_intervals):
     else:
         # This objects adds headers to the columns
         h_list = ['Time', 'Rank', 'CryptoCurrency', 'Price', 'Change (24) %', 'Market Cap.']
-        poly_df = pd.read_csv(r'C:\Users\Admin\Desktop\Plotly_Dashboards\Dashboard_Finance\data\poly_data.csv', names=h_list)
+        poly_df = pd.read_csv('https://raw.githubusercontent.com/Olayemi-apps/financial-dashboard/main/data/poly_data.csv', names=h_list)
         poly_rank = poly_df['Rank'][0] # 0 without the index being shown in the output
         poly_df['Price_Variation'] = poly_df['Price'].diff()
         # Tail will give the last value of the dataframe
@@ -2235,7 +2235,7 @@ def update_card(n_intervals):
     else:
         # This objects adds headers to the columns
         h_list = ['Time', 'Rank', 'CryptoCurrency', 'Price', 'Change (24) %', 'Market Cap.']
-        poly_df = pd.read_csv(r'C:\Users\Admin\Desktop\Plotly_Dashboards\Dashboard_Finance\data\poly_data.csv', names=h_list)
+        poly_df = pd.read_csv('https://raw.githubusercontent.com/Olayemi-apps/financial-dashboard/main/data/poly_data.csv', names=h_list)
         # Tail will give the last value of the dataframe
         poly_change24h = poly_df['Change (24) %'].tail(1).iloc[0]
         poly_market = poly_df['Market Cap.'].tail(1).iloc[0]
@@ -2308,35 +2308,31 @@ def update_card(n_intervals):
     else:
         # This objects adds headers to the columns
         h_list = ['Time', 'Rank', 'CryptoCurrency', 'Price', 'Change (24) %', 'Market Cap.']
-        bc_df = pd.read_csv(r'C:\Users\Admin\Desktop\Plotly_Dashboards\Dashboard_Finance\data\bc_data.csv', names=h_list)
+        bc_df = pd.read_csv('https://raw.githubusercontent.com/Olayemi-apps/financial-dashboard/main/data/bc_data.csv', names=h_list)
         bc_price = bc_df['Price'].tail(1).iloc[0]
         bc_change24h = bc_df['Change (24) %'].tail(1).iloc[0]
         bc_market = bc_df['Market Cap.'].tail(1).iloc[0]
 
         h_list = ['Time', 'Rank', 'CryptoCurrency', 'Price', 'Change (24) %', 'Market Cap.']
-        et_df = pd.read_csv(r'C:\Users\Admin\Desktop\Plotly_Dashboards\Dashboard_Finance\data\et_data.csv',
-                            names=h_list)
+        et_df = pd.read_csv('https://raw.githubusercontent.com/Olayemi-apps/financial-dashboard/main/data/et_data.csv', names=h_list)
         et_price = et_df['Price'].tail(1).iloc[0]
         et_change24h = et_df['Change (24) %'].tail(1).iloc[0]
         et_market = et_df['Market Cap.'].tail(1).iloc[0]
 
         h_list = ['Time', 'Rank', 'CryptoCurrency', 'Price', 'Change (24) %', 'Market Cap.']
-        tet_df = pd.read_csv(r'C:\Users\Admin\Desktop\Plotly_Dashboards\Dashboard_Finance\data\tet_data.csv',
-                             names=h_list)
+        tet_df = pd.read_csv('https://raw.githubusercontent.com/Olayemi-apps/financial-dashboard/main/data/tet_data.csv', names=h_list)
         tet_price = tet_df['Price'].tail(1).iloc[0]
         tet_change24h = tet_df['Change (24) %'].tail(1).iloc[0]
         tet_market = tet_df['Market Cap.'].tail(1).iloc[0]
 
         h_list = ['Time', 'Rank', 'CryptoCurrency', 'Price', 'Change (24) %', 'Market Cap.']
-        usd_df = pd.read_csv(r'C:\Users\Admin\Desktop\Plotly_Dashboards\Dashboard_Finance\data\usd_data.csv',
-                             names=h_list)
+        usd_df = pd.read_csv('https://raw.githubusercontent.com/Olayemi-apps/financial-dashboard/main/data/usd_data.csv', names=h_list)
         usd_price = usd_df['Price'].tail(1).iloc[0]
         usd_change24h = usd_df['Change (24) %'].tail(1).iloc[0]
         usd_market = usd_df['Market Cap.'].tail(1).iloc[0]
 
         h_list = ['Time', 'Rank', 'CryptoCurrency', 'Price', 'Change (24) %', 'Market Cap.']
-        bnb_df = pd.read_csv(r'C:\Users\Admin\Desktop\Plotly_Dashboards\Dashboard_Finance\data\bnb_data.csv',
-                             names=h_list)
+        bnb_df = pd.read_csv('https://raw.githubusercontent.com/Olayemi-apps/financial-dashboard/main/data/bnb_data.csv', names=h_list)
         bnb_price = bnb_df['Price'].tail(1).iloc[0]
         bnb_change24h = bnb_df['Change (24) %'].tail(1).iloc[0]
         bnb_market = bnb_df['Market Cap.'].tail(1).iloc[0]
@@ -2489,7 +2485,7 @@ def update_card(n_intervals):
     else:
         # This objects adds headers to the columns
         h_list = ['Time', 'Rank', 'CryptoCurrency', 'Price', 'Change (24) %', 'Market Cap.']
-        et_df = pd.read_csv(r'C:\Users\Admin\Desktop\Plotly_Dashboards\Dashboard_Finance\data\et_data.csv', names=h_list)
+        et_df = pd.read_csv('https://raw.githubusercontent.com/Olayemi-apps/financial-dashboard/main/data/et_data.csv', names=h_list)
         et_time = et_df['Time'].tail(1).iloc[0]
         et_price = et_df['Price'].tail(1).iloc[0]
 
@@ -2528,7 +2524,7 @@ def update_card(n_intervals):
     else:
         # This objects adds headers to the columns
         h_list = ['Time', 'Rank', 'CryptoCurrency', 'Price', 'Change (24) %', 'Market Cap.']
-        et_df = pd.read_csv(r'C:\Users\Admin\Desktop\Plotly_Dashboards\Dashboard_Finance\data\et_data.csv', names=h_list)
+        et_df = pd.read_csv('https://raw.githubusercontent.com/Olayemi-apps/financial-dashboard/main/data/et_data.csv', names=h_list)
         time_interval = et_df['Time'].tail(30)
         et_price = et_df['Price'].tail(30)  # Displays last 30 values, are the most recent values
 
@@ -2603,7 +2599,7 @@ def update_card(n_intervals):
     else:
         # This objects adds headers to the columns
         h_list = ['Time', 'Rank', 'CryptoCurrency', 'Price', 'Change (24) %', 'Market Cap.']
-        bc_df = pd.read_csv(r'C:\Users\Admin\Desktop\Plotly_Dashboards\Dashboard_Finance\data\bc_data.csv', names=h_list)
+        bc_df = pd.read_csv('https://raw.githubusercontent.com/Olayemi-apps/financial-dashboard/main/data/bc_data.csv', names=h_list)
         bc_time = bc_df['Time'].tail(1).iloc[0]
         bc_price = bc_df['Price'].tail(1).iloc[0]
 
@@ -2641,7 +2637,7 @@ def update_card(n_intervals):
     else:
         # This objects adds headers to the columns
         h_list = ['Time', 'Rank', 'CryptoCurrency', 'Price', 'Change (24) %', 'Market Cap.']
-        bc_df = pd.read_csv(r'C:\Users\Admin\Desktop\Plotly_Dashboards\Dashboard_Finance\data\bc_data.csv', names=h_list)
+        bc_df = pd.read_csv('https://raw.githubusercontent.com/Olayemi-apps/financial-dashboard/main/data/bc_data.csv', names=h_list)
         time_interval = bc_df['Time'].tail(30)
         bc_price = bc_df['Price'].tail(30)  # Displays last 30 values, are the most recent values
 
