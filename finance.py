@@ -16,6 +16,8 @@ external_stylesheets = [
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets,
                 meta_tags=[{"name": "viewport", "content": "width=device-width"}])
 
+server = app.server
+
 BB_LOGO = "/assets/bberg_logo.png"
 P_SPARX = "assets/favicon-32x32.png"
 
